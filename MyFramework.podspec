@@ -81,7 +81,11 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/AshishRathod84/MyFramework.git", :tag => "#{spec.version}" }
+  #spec.source       = { :git => "https://github.com/AshishRathod84/MyFramework.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/AshishRathod84/MyFramework.git", :tag => "#{spec.version.to_s}" }
+  
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +96,8 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MyFramework", "MyFramework/**/*.{h,m,swift}"
+  #spec.source_files  = "MyFramework", "MyFramework/**/*.{h,m,swift}"
+   spec.source_files  = "MyFramework/**/*.{h,m,swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
