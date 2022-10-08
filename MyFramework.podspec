@@ -65,7 +65,7 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   #
 
   # spec.platform     = :its
-   spec.platform     = :ios, "10.0"
+   spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -91,7 +91,7 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/**/*.{h,m,swift}"
+  spec.source_files  = "MyFramework/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
