@@ -69,8 +69,8 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
    spec.swift_version = "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-   spec.osx.deployment_target = "16.0"
+   spec.ios.deployment_target = "16.0"
+  #spec.osx.deployment_target = "16.0"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
@@ -136,8 +136,8 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
-  spec.framework = "UIKit"
-    spec.dependency 'Socket.IO-Client-Swift'
+  #spec.framework = "UIKit"
+   #spec.dependency 'Socket.IO-Client-Swift'
 
 
 end
