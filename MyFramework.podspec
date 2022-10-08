@@ -65,7 +65,7 @@ This is lightweight sdk for Chat Application and created UI for ChatSocket
   #
 
   # spec.platform     = :its
-   spec.platform     = :ios, "11.0"
+   spec.platform     = :ios, "13.0"
    spec.swift_version = "5.0"
 
   #  When using multiple platforms
